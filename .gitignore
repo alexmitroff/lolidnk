@@ -1,6 +1,8 @@
 
 # Created by https://www.gitignore.io/api/r,python
 
+
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -139,3 +141,17 @@ vignettes/*.pdf
 # End of https://www.gitignore.io/api/r,python
 
 *.raw.*
+
+### Vim ###
+# swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+## session
+Session.vim
+# temporary
+.netrwhist
+*~
+## auto-generated tag files
+tags
